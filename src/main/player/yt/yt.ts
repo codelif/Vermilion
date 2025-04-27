@@ -98,6 +98,7 @@ async function performSearch(query: string): Promise<SearchResults> {
                         source: "yt",
                         songsNumber: 0,
                         duration: 0,
+                        coverUrl: SHORT_DATA.albumCoverUrl,
                         artists: artists,
                         artistString: artistString,
                     });
